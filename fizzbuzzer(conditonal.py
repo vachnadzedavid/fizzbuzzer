@@ -4,6 +4,7 @@ buzz_count = 0
 fizzbuzz_count = 0
 other_count = 0
 
+
 #So basically what we do here is a loop through numbers from 1 to 100
 for i in range(1, 101):
     if i % 3 == 0 and i % 5 == 0:
@@ -19,9 +20,14 @@ for i in range(1, 101):
         print(i)
         other_count += 1
 
+
 #Print the summary of counts after the loop finishes
 print("Summary:")
 print(f"Fizz: {fizz_count} times")
 print(f"Buzz: {buzz_count} times")
 print(f"FizzBuzz: {fizzbuzz_count} times")
 print(f"Other numbers: {other_count} times")
+
+
+#Basically what this does it identifies the fizz amount of time the buzz amount of times and the fizz buzz amount of times that it has been used.
+#It prints it to show you the summary of how many times it has generated with the conditional statments.
